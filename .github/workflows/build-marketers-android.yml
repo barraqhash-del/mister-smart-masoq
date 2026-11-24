@@ -38,6 +38,9 @@ jobs:
       - name: Generate Android project
         run: npx cap add android
 
+      - name: Apply Basma Soft launcher icon
+        run: node scripts/generate-android-icons.js
+
       - name: Sync Capacitor
         run: npx cap sync android
 
