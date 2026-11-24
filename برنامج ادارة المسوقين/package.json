@@ -5,9 +5,18 @@
   "description": "نظام إدارة المسوقين والعملاء - قاعدة مركزية ومصادقة محلية",
   "scripts": {
     "start": "node start.js",
-    "start:server": "node server.js"
+    "start:server": "node server.js",
+    "build:mobile": "node build-mobile.js",
+    "cap:sync": "npm run build:mobile && cap sync android"
   },
   "engines": {
     "node": ">=22.13"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
   }
 }
