@@ -1,0 +1,7 @@
+{
+  "name": "basma-marketers",
+  "version": "0.1.0",
+  "private": true,
+  "description": "نظام إدارة المسوقين والعملاء - نسخة تجريبية محلية",
+  "scripts": { "start": "node server.js" }
+}

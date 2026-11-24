@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101827"><title>بصمة سوفت | إدارة المسوقين</title>
+<link rel="stylesheet" href="styles.css?v=20261122-mobile3">
+</head>
+<body>
+<div id="authGate" class="auth-gate" hidden></div>
+<div class="app-shell" id="appShell" hidden>
+<aside class="sidebar" id="sidebar">
+  <div class="brand"><div class="brand-mark">ب</div><div><strong>بصمة سوفت</strong><small>إدارة المسوقين</small></div></div>
+  <div class="workspace"><span class="live-dot"></span> بيئة تجريبية محلية</div>
+  <nav id="nav">
+    <button class="nav-item active" data-page="dashboard"><span>▦</span> نظرة عامة</button>
+    <button class="nav-item" data-page="customers"><span>♙</span> قاعدة العملاء</button>
+    <button class="nav-item" data-page="visits"><span>⌖</span> الزيارات والحجوزات</button>
+    <button class="nav-item" data-page="unconverted"><span>↻</span> العملاء الذين تم زيارتهم ولم يشتركوا</button>
+    <button class="nav-item" data-page="sales"><span>↗</span> المبيعات والاشتراكات</button>
+    <button class="nav-item" data-page="commissions"><span>◈</span> العمولات</button>
+    <button class="nav-item" data-page="team"><span>♧</span> فريق التسويق</button>
+    <button class="nav-item" data-page="reports"><span>▤</span> التقارير</button>
+    <button class="nav-item" data-page="settings"><span>⚙</span> الإعدادات</button>
+  </nav>
+  <div class="sidebar-foot"><div class="avatar">م</div><div><b>مدير النظام</b><small>صلاحية تجريبية</small></div><button class="icon-btn" id="roleSwitch" title="تبديل الدور">⇄</button></div>
+</aside>
+<main class="main">
+<header class="topbar"><button class="icon-btn mobile-menu" id="menuBtn">☰</button><div><div class="eyebrow">نظام إدارة علاقات العملاء</div><h1 id="pageTitle">نظرة عامة</h1></div><div class="top-actions"><span class="demo-pill">● قاعدة مركزية</span><button class="icon-btn" id="themeBtn" title="تبديل المظهر">☼</button><button class="primary-btn" id="quickAdd">＋ عميل جديد</button></div></header>
+<div class="content" id="content"></div>
+<footer>بصمة سوفت · نظام إدارة المسوقين <span>قاعدة SQLite مركزية على الخادم المحلي</span></footer><nav id="marketerMobileNav" class="marketer-mobile-nav" aria-label="تنقل المسوق"></nav>
+</main>
+</div>
+<div class="toast" id="toast" role="status"></div>
+<div class="modal-backdrop" id="modalBackdrop"><section class="modal" id="modal"><div class="modal-head"><h2 id="modalTitle"></h2><button class="icon-btn" id="modalClose">×</button></div><div id="modalBody"></div></section></div>
+<script src="app.js?v=20261122-mobile3"></script>
+</body></html>

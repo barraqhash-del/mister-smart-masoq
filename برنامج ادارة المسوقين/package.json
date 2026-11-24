@@ -1,0 +1,13 @@
+{
+  "name": "basma-marketers",
+  "version": "0.2.0",
+  "private": true,
+  "description": "نظام إدارة المسوقين والعملاء - قاعدة مركزية ومصادقة محلية",
+  "scripts": {
+    "start": "node start.js",
+    "start:server": "node server.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
